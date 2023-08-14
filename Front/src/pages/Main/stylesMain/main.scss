@@ -1,0 +1,71 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../../BackGround/cloud.jpg') no-repeat;
+  background-size: cover;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  color: #6aafe6;
+  text-shadow: 0 8px 9px #6aafe6, 0px -2px 1px #fff;
+  font-weight: bold;
+  animation: fadein 3s;
+  .title {
+    font-size: 128px;
+  }
+  .useToDo {
+    font-size: 64px;
+    position: relative;
+    color: #6aafe6;
+    cursor: pointer;
+    &:hover {
+      text-shadow: 0 8px 9px #0084c3, 0px -2px 1px #fff;
+      color: #0084c3;
+    }
+  }
+  .useToDo:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+  }
+
+  .useToDo:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes shine {
+  from {
+    mask-position: 150%;
+  }
+
+  to {
+    mask-position: -50%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

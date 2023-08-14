@@ -1,0 +1,19 @@
+.authTodoLogo {
+  padding-top: 1%;
+  .authTodoLogoText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #6aafe6;
+    text-align: center;
+    text-shadow: 0 8px 9px #6aafe6, 0px -2px 1px #fff;
+    cursor: default;
+  }
+  .activeAuthToDoLogoText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0084c3;
+    text-align: center;
+    text-shadow: 0 8px 9px #0084c3, 0px -2px 1px #fff;
+    cursor: default;
+  }
+}
