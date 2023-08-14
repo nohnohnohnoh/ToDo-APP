@@ -3,88 +3,55 @@
 ## 소개
 
 원티드 프리온보딩에서 진행한 간단한 회원가입 및 할 일 CRUD 기능이 구현되어있습니다.
+API는 원티드에서 주어진 api로 진행하였습니다.
 
 ## 시연
+
+### ToDo APP을 한눈에 볼 수 있습니다. 👉 [ToDo APP YouTube 데모영상](https://www.youtube.com/watch?v=1EQDwj4kPvg)
+
+### Main
+
+   <img src="https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/96297315-d1a0-4641-85f0-7ef7e5410cb3"/>
 
 ### AUTH (SIGNIN, SIGNUP)
 
 #### SIGN IN
 
-  <img src = "https://user-images.githubusercontent.com/97607572/216269003-40772a76-6cd3-448d-8427-8f7602acfeb3.gif"/>
-  
+  <img src = "https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/b2956af0-0a8c-4e1c-a1cc-17c1bf5525dc"/>
+
 #### SIGN UP
-  <img src = "https://user-images.githubusercontent.com/97607572/216269117-d3faeaee-cae2-4718-9723-58373db917fa.gif"/>
+
+  <img src = "https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/e6757929-8feb-48c8-a3dc-255a0e603a25"/>
 
 ### TODO (ADD, MODIFY, DELETE)
 
 #### ADD TODO
 
-  <img src="https://user-images.githubusercontent.com/97607572/216272781-fd3d53d8-09b7-438b-a7de-5fb267ec3108.gif"/>
-  
+  <img src="https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/f04c808f-2408-44f3-9055-16d21d26ae24"/>
+
 #### MODIFY TODO
-  <img src="https://user-images.githubusercontent.com/97607572/216269143-f5cd491a-5433-4aea-a48e-f8413b8d940a.gif"/>
-  
+
+  <img src="https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/a0dc1f3e-2ab7-4aaa-b253-d35e96514ea2"/>
+
 #### DELETE TODO
-  <img src="https://user-images.githubusercontent.com/97607572/216273208-05cfe999-0960-41dc-82e4-49b3d984baa4.gif"/>
-  
-## 프로젝트 구조
-```
-📦src
- ┣ 📂Router
- ┃ ┗ 📜Router.tsx
- ┣ 📂api
- ┃ ┗ 📜api.ts
- ┣ 📂pages
- ┃ ┣ 📂Auth
- ┃ ┃ ┣ 📂stylesAuth
- ┃ ┃ ┃ ┗ 📜auth.scss
- ┃ ┃ ┣ 📜Auth.tsx
- ┃ ┃ ┣ 📜AuthButton.tsx
- ┃ ┃ ┣ 📜AuthInput.tsx
- ┃ ┃ ┗ 📜AuthModal.tsx
- ┃ ┣ 📂BackGround
- ┃ ┃ ┗ 📜cloud.jpg
- ┃ ┣ 📂ToDo
- ┃ ┃ ┣ 📂stylesTodo
- ┃ ┃ ┃ ┣ 📜todo.scss
- ┃ ┃ ┃ ┣ 📜todoButton.scss
- ┃ ┃ ┃ ┣ 📜todoLogOut.scss
- ┃ ┃ ┃ ┣ 📜todoModal.scss
- ┃ ┃ ┃ ┗ 📜todoModalSection.scss
- ┃ ┃ ┣ 📜ToDo.tsx
- ┃ ┃ ┣ 📜ToDoButton.tsx
- ┃ ┃ ┣ 📜ToDoLogOut.tsx
- ┃ ┃ ┣ 📜ToDoModal.tsx
- ┃ ┃ ┗ 📜ToDoModalSection.tsx
- ┃ ┣ 📂ToDoDetail
- ┃ ┃ ┣ 📂stylesToDoDetail
- ┃ ┃ ┃ ┣ 📜todoDetail.scss
- ┃ ┃ ┃ ┣ 📜todoDetailButton.scss
- ┃ ┃ ┃ ┣ 📜todoDetailModal.scss
- ┃ ┃ ┃ ┗ 📜todoDetailSection.scss
- ┃ ┃ ┣ 📜ToDoDetail.tsx
- ┃ ┃ ┣ 📜ToDoDetailButton.tsx
- ┃ ┃ ┣ 📜ToDoDetailModal.tsx
- ┃ ┃ ┗ 📜ToDoDetailSection.tsx
- ┃ ┗ 📜.DS_Store
- ┣ 📂styles
- ┣ 📂types
- ┃ ┗ 📜type.ts
- ┣ 📜.DS_Store
- ┣ 📜config.tsx
- ┗ 📜index.tsx
- ```
-  
+
+  <img src="https://github.com/nohnohnohnoh/ToDo-APP/assets/97607572/fdad9209-98e9-459a-9d0a-046faa0d1a99"/>
+
 ## 실행 방법
+
 ```
-git clone https://github.com/nohnohnohnoh/wanted-pre-onboarding.git
-npm install
-npm start
+- git clone https://github.com/nohnohnohnoh/wanted-pre-onboarding
+- // 터미널을 두 개로 나눈다.
+- // 각 터미널에 cd Front cd BackEnd
+- // Front 터미널에서는 npm install Back 터미널에서는 yarn install을 한다.
+- // Front 터미널에서 npm start Back 터미널에서 yarn start를 한다.
 ```
 
 ## 사용 스택
 
+- JavaScript
 - React
+- Recoil
 - Typescript
 - React-query
 

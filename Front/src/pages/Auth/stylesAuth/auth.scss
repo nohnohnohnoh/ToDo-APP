@@ -4,7 +4,7 @@
   background: url('../../BackGround/cloud.jpg') no-repeat;
   background-size: cover;
   .authBox {
-    width: 30%;
+    width: 40%;
     height: 50%;
     position: fixed;
     left: 50%;
@@ -100,7 +100,7 @@
         align-items: center;
         flex-direction: column;
         .authButton {
-          width: 30%;
+          width: 45%;
           height: 50%;
           background-color: #6aafe6;
           color: #d4dfe6;
@@ -109,7 +109,7 @@
           cursor: pointer;
         }
         .activeAuthButton {
-          width: 30%;
+          width: 45%;
           height: 50%;
           background-color: #0084c3;
           color: #fff;
